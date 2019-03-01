@@ -2,7 +2,7 @@
 <meta charset="UTF-8">
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
         <title>Contact</title>
     </head>
 <body>
@@ -24,7 +24,18 @@
 
         <div class="divider"><figure></figure></div>
 
-        <p>lorem ipsum</p>
+        <form action="/action_page.php">
+            <label for="fname">Your name</label>
+            <input type="text" id="form-name" name="Name" placeholder="">
+            <div></div>
+            <label for="fname">Email</label>
+            <input type="text" id="form-email" name="Email" placeholder="">
+            <div></div>
+            <label for="fname">Subject</label>
+            <input type="text" id="form-subject" name="Subject" style="height:200px" placeholder="">
+            <div></div>
+            <input type="submit" value="Submit">
+        </form>
         
         
     </div>
