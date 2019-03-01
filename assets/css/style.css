@@ -160,3 +160,24 @@ input[type=submit] {
   input[type=submit]:hover {
     background-color: #45a049;
   }
+
+  @media only screen and (max-width:960px) {
+      .container {
+          width:100%;
+      }
+  }
+
+  @media only screen and (max-width:768px) {
+    .container {
+        width:80%;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .container {
+        width:66%;
+    }
+    .topbar {
+        position:static;
+    }
+}
